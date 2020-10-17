@@ -20,10 +20,22 @@
   color: var(--white);
   font-size: 1.2rem;
   font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 
 .work-description {
   color: var(--gray);
   font-size: 0.9rem;
   font-weight: 300;
+  text-align: justify;
+}
+
+.work-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.work-image img {
+  height: 7rem;
 }

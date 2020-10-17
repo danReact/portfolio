@@ -1,0 +1,45 @@
+nav {
+  background-color: var(--blue);
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  height: 4.5rem;
+}
+
+/* .nav-options {
+  position: absolute;
+  display: grid;
+  grid-template-rows: 5% 95%;
+  background-color: var(--dark-blue);
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 35vw;
+}
+
+.closeMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 35vw;
+}
+
+.fa-times {
+  color: var(--light-blue);
+  padding-right: 1rem;
+} */
+
+.fa-bars {
+  color: var(--light-blue);
+  height: 100%;
+  margin-left: 1rem;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand img {
+  height: 3rem;
+}

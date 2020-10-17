@@ -6,7 +6,10 @@ function Works() {
     <div className="work-container">
       <div className="work-info">
         <div className="work-text">
-          <div className="work-title">- Portfolio All Creative Works.</div>
+          <div className="work-title">
+            <p>- Portfolio </p>
+            All Creative Works.
+          </div>
           <div className="work-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet
             pharetra, amet id sagittis, nisl in augue. Sed blandit egestas diam

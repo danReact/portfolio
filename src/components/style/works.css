@@ -1,4 +1,29 @@
 .work-container {
   background-color: var(--dark-blue);
-  /* height: 100%; */
+}
+
+.work-info {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  padding: 1.5rem 0 0 0;
+  margin: 0 1rem;
+}
+
+.work-title p {
+  margin: 0 0 0.3rem 0;
+  font-size: 0.7rem;
+  color: var(--gray);
+  letter-spacing: 0;
+}
+
+.work-title {
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.work-description {
+  color: var(--gray);
+  font-size: 0.9rem;
+  font-weight: 300;
 }

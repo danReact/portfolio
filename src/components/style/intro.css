@@ -3,10 +3,10 @@
   background-image: url("/media/wave.svg");
   background-repeat: no-repeat;
   background-position: bottom;
+  padding-bottom: 3.5rem;
 }
 
 .infoUser {
-  border: 1px solid red;
   display: grid;
   justify-content: center;
   padding-bottom: 1rem;
@@ -47,7 +47,6 @@
 }
 
 .information {
-  border: 1px solid red;
   margin: 0 1rem;
 }
 
@@ -56,4 +55,13 @@
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.5px;
+  margin-bottom: 0.8rem;
+}
+
+.infoDescription {
+  text-align: justify;
+  width: 85%;
+  color: var(--gray);
+  font-size: 0.9rem;
+  font-weight: 300;
 }

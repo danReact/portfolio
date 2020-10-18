@@ -47,7 +47,7 @@
 }
 
 .information {
-  margin: 0 1rem;
+  margin: 0 1.7rem;
 }
 
 .infoTitle {
@@ -60,7 +60,7 @@
 
 .infoDescription {
   text-align: justify;
-  width: 85%;
+  width: 80%;
   color: var(--gray);
   font-size: 0.9rem;
   font-weight: 300;

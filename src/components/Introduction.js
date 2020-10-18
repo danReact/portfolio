@@ -23,10 +23,8 @@ function Introduction() {
             Developer, based in México.
           </div>
           <div className="infoDescription">
-            I´m a junior front-end developer looking for a new role in a
-            exciting company. I focus on HTML, CSS and JS. When writing
-            javascript code. I mostly use React, but i can adapt to whatever
-            tools are required.
+            I'm a software engineer based in México, I specialize in building
+            (and occasionally designing) websites and everything in between.
           </div>
         </div>
       </div>

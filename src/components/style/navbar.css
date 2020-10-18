@@ -3,30 +3,8 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 33.3%);
   height: 4.5rem;
+  position: relative;
 }
-
-/* .nav-options {
-  position: absolute;
-  display: grid;
-  grid-template-rows: 5% 95%;
-  background-color: var(--dark-blue);
-  top: 0;
-  z-index: 1;
-  height: 100vh;
-  width: 35vw;
-}
-
-.closeMenu {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 35vw;
-}
-
-.fa-times {
-  color: var(--light-blue);
-  padding-right: 1rem;
-} */
 
 .fa-bars {
   color: var(--light-blue);
@@ -42,4 +20,51 @@ nav {
 
 .brand img {
   height: 3rem;
+}
+
+/*  */
+
+.nav-options {
+  visibility: hidden;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 85% 15%;
+  background-color: var(--blue);
+  width: 100%;
+  height: 4.5rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.options a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.2rem;
+}
+
+.initial-option {
+  position: relative;
+}
+
+.initial-option span {
+  position: absolute;
+  display: block;
+  left: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-top: 0.3rem;
+  border-radius: 100%;
+  background-color: var(--light-blue);
+}
+
+.closeMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-blue);
 }

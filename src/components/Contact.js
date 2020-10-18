@@ -3,7 +3,7 @@ import "./style/contact.css";
 
 function Contact() {
   return (
-    <div className="conatct-container">
+    <div className="contact-container" id="contact-container">
       <div className="contact-info">
         <div className="contact-title">
           <p>- Contact </p>
@@ -29,8 +29,8 @@ function Contact() {
         <div className="form-section">
           <div className="form-label send-mail">
             Tell me about your project
-            <i class="fas fa-paperclip"></i>
-            <i class="fas fa-arrow-right"></i>
+            <i className="fas fa-paperclip"></i>
+            <i className="fas fa-arrow-right"></i>
           </div>
           <textarea id="styled" rows="1" />
         </div>

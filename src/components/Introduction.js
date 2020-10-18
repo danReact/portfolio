@@ -4,7 +4,7 @@ import "./style/intro.css";
 
 function Introduction() {
   return (
-    <div className="introContainer">
+    <div className="introContainer" id="introContainer">
       <div className="info">
         <div className="infoUser">
           <div className="user">

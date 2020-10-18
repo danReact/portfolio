@@ -1,0 +1,12 @@
+.media {
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.media > svg {
+  margin: 0 0.8rem;
+  color: var(--white);
+}

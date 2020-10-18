@@ -11,16 +11,19 @@ function Works() {
             All Creative Works.
           </div>
           <div className="work-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet
-            pharetra, amet id sagittis, nisl in augue. Sed blandit egestas diam
-            in ornare.
+            I enjoy creating things that live on the internet. Here are some
+            things I’ve built.
           </div>
         </div>
         <div className="work-image">
           <img src="/media/red.svg" alt="red" />
         </div>
       </div>
-      <div className="projects-container"></div>
+      <div className="projects-container">
+        <div>as</div>
+        <div>asas</div>
+        <div>asasas</div>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 .work-container {
   background-color: var(--dark-blue);
+  padding-bottom: 1rem;
 }
 
 .work-info {
@@ -38,4 +39,9 @@
 
 .work-image img {
   height: 7rem;
+}
+
+.projects-container {
+  background-color: chocolate;
+  margin: 2rem 1.7rem;
 }

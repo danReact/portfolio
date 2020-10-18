@@ -2,6 +2,8 @@ import React from "react";
 import NavBar from "./NavBar";
 import Introduction from "./Introduction";
 import Works from "./Works";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <NavBar />
       <Introduction />
       <Works />
+      <Contact />
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Media from "./Media";
 import "./style/intro.css";
 
 function Introduction() {
@@ -12,10 +13,7 @@ function Introduction() {
           <div className="line">
             <span></span>
           </div>
-          <div className="media">
-            <i className="fab fa-github fa-lg"></i>
-            <i className="fab fa-linkedin-in fa-lg"></i>
-          </div>
+          <Media />
         </div>
         <div className="information">
           <div className="infoTitle">

@@ -1,0 +1,28 @@
+.footer-container {
+  background-color: var(--dark-blue);
+  padding: 1rem 0;
+}
+
+.footer-content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo img {
+  margin: 1.2rem 0;
+  height: 3rem;
+}
+
+.footer-text {
+  color: var(--white);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+  text-align: center;
+}

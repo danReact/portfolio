@@ -30,7 +30,7 @@
   color: var(--gray);
   font-size: 0.9rem;
   font-weight: 300;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .work-image {
@@ -45,6 +45,32 @@
 }
 
 .projects-container {
-  background-color: chocolate;
+  border: 1px solid red;
   margin: 2rem 1.7rem;
+}
+
+.project {
+  background-color: thistle;
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: repeat(6, 16.66%);
+  height: 8rem;
+}
+
+.project-presentation {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+
+.project-image {
+  background-color: red;
+  width: 100%;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
 }

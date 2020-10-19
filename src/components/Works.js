@@ -10,19 +10,26 @@ function Works() {
             <p>- Portfolio </p>
             All Creative Works.
           </div>
-          {/* <div className="work-description">
-            I enjoy creating things that live on the internet. Here are some
-            things I’ve built.
-          </div> */}
+          <div className="work-description">
+            I enjoy creating things that live on the internet.
+          </div>
         </div>
         <div className="work-image">
           <img src="/media/red.svg" alt="red" />
         </div>
       </div>
       <div className="projects-container">
-        <div>as</div>
-        <div>asas</div>
-        <div>asasas</div>
+        <div className="project">
+          <div className="project-presentation">
+            <div className="project-image">
+              <img src="/media/projects/xdelta.png" alt="xdelta" />
+            </div>
+            {/* <div className="project-cover"></div> */}
+          </div>
+          <div className="project-name">title</div>
+          <div className="project-description">banner</div>
+          <div className="project-tools">tilities</div>
+        </div>
       </div>
     </div>
   );

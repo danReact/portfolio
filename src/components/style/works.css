@@ -63,7 +63,7 @@
   grid-row-start: 1;
   grid-row-end: 11;
   background-image: url("/media/projects/xdelta.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }

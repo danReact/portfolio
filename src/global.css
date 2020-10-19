@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 :root {
-  --light-blue: #43fff4;
   --blue: #333647;
+  --light-blue: #43fff4;
   --dark-blue: #252734;
+  --blue-project: rgb(67, 255, 244, 0.5);
   --white: #f8f8f8;
   --gray: #c2c2c2;
   --gray-input: #717171;

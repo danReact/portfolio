@@ -21,14 +21,20 @@ function Works() {
       <div className="projects-container">
         <div className="project">
           <div className="project-presentation">
-            <div className="project-image">
-              <img src="/media/projects/xdelta.png" alt="xdelta" />
-            </div>
-            {/* <div className="project-cover"></div> */}
+            <span></span>
           </div>
-          <div className="project-name">title</div>
-          <div className="project-description">banner</div>
-          <div className="project-tools">tilities</div>
+          <div className="project-description">
+            <div className="project-title">x-delta</div>
+            <div className="project-text">
+              Design of a web application focused on e-commerce of sneakers.
+            </div>
+          </div>
+          <div className="project-tools">
+            <div>NodeJs</div>
+            <div>React</div>
+            <div>Redux</div>
+            <div>MongoDB</div>
+          </div>
         </div>
       </div>
     </div>

@@ -12,8 +12,8 @@ function Contact() {
           Let´s talk.
         </div>
         <div className="contact-description">
-          I enjoy creating things that live on the internet. Here are some
-          things I’ve built.
+          My inbox is always open. Whether you have a question, project or just
+          want to say hi, I'll try my best to get back to you!
           <p>daniel@dgtdan.com</p>
         </div>
       </div>

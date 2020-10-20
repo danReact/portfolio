@@ -36,12 +36,4 @@
     letter-spacing: 1px;
     font-size: 1rem;
   }
-
-  .media {
-    justify-content: center;
-  }
-
-  .media > a {
-    margin: 0 0.8rem;
-  }
 }

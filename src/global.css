@@ -15,4 +15,17 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 1280px) {
+  body::-webkit-scrollbar {
+    width: 5px; /* width of the entire scrollbar */
+    background-color: var(--dark-blue);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--light-blue); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+  }
 }

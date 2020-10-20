@@ -109,5 +109,31 @@ nav {
     align-items: center;
     margin: 0;
     width: 100%;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  .brand {
+    margin: 0 0 0 4.5rem;
+  }
+
+  .nav-options {
+    margin: 0 4.5rem 0 0;
+  }
+
+  .options {
+    justify-content: flex-start;
+  }
+
+  .options > a {
+    margin: 0 20% 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .options > a {
+    margin: 0 25% 0 0;
   }
 }

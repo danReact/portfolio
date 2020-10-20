@@ -10,3 +10,29 @@
   margin: 0 0.8rem;
   color: var(--white);
 }
+
+/*  */
+
+.media-footer {
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.media-footer > a {
+  margin: 0 0.8rem;
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .media {
+    justify-content: flex-start;
+    margin: 1rem 0;
+  }
+
+  .media > a {
+    margin: 0 2rem 0 0;
+  }
+}

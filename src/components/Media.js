@@ -3,7 +3,7 @@ import "./style/media.css";
 
 function Media() {
   return (
-    <div className="media">
+    <>
       <a href="https://github.com/zrDan" target="blank">
         <i className="fab fa-github fa-lg"></i>
       </a>
@@ -13,7 +13,7 @@ function Media() {
       >
         <i className="fab fa-linkedin-in fa-lg"></i>
       </a>
-    </div>
+    </>
   );
 }
 

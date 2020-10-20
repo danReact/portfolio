@@ -13,7 +13,9 @@ function Introduction() {
           <div className="line">
             <span></span>
           </div>
-          <Media />
+          <div className="media">
+            <Media />
+          </div>
         </div>
         <div className="information">
           <div className="infoTitle">

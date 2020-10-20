@@ -166,3 +166,28 @@ textarea#styled {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 1152px) {
+  .contact-container {
+    padding: 1.8rem 0 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .contact-info {
+    margin: 0 0 0 4.5rem;
+  }
+
+  .contact-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-description p {
+    margin-top: 1rem;
+  }
+
+  .contact-form {
+    margin: 0 8rem;
+  }
+}

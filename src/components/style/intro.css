@@ -83,15 +83,6 @@
     width: 4rem;
   }
 
-  .media {
-    justify-content: flex-start;
-    margin: 1rem 0;
-  }
-
-  .media > a {
-    margin: 0 2rem 0 0;
-  }
-
   .information {
     padding: 2rem 0;
     margin: 0;
@@ -107,5 +98,20 @@
 
   .infoDescription {
     font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  .introContainer {
+    background-size: 80%;
+    background-position: right bottom;
+  }
+
+  .info {
+    margin: 0 4.5rem;
+  }
+
+  .infoUser {
+    padding: 3rem 0;
   }
 }

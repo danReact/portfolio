@@ -10,7 +10,9 @@ function Footer() {
           <img src="/media/logo.svg" alt="logo" />
         </div>
         <div className="footer-text">Thanks For Scrolling</div>
-        <Media />
+        <div className="media-footer">
+          <Media />
+        </div>
       </div>
     </div>
   );

@@ -39,6 +39,7 @@
 
 .infoTitle {
   color: var(--white);
+  width: 90%;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -51,4 +52,60 @@
   color: var(--gray);
   font-size: 0.9rem;
   font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .introContainer {
+    padding-bottom: 6rem;
+  }
+
+  .info {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 0 3rem;
+  }
+
+  .infoUser {
+    display: grid;
+    justify-content: flex-start;
+    padding: 2rem 0;
+  }
+
+  .user {
+    font-size: 3rem;
+  }
+
+  .line {
+    justify-content: flex-start;
+  }
+
+  .line span {
+    width: 4rem;
+  }
+
+  .media {
+    justify-content: flex-start;
+    margin: 1rem 0;
+  }
+
+  .media > a {
+    margin: 0 2rem 0 0;
+  }
+
+  .information {
+    padding: 2rem 0;
+    margin: 0;
+    display: grid;
+    align-content: center;
+  }
+
+  .infoTitle {
+    width: 90%;
+    font-size: 1.6rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .infoDescription {
+    font-size: 1rem;
+  }
 }

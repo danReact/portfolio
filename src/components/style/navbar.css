@@ -68,3 +68,46 @@ nav {
   align-items: center;
   color: var(--light-blue);
 }
+
+@media screen and (min-width: 768px) {
+  nav {
+    grid-template-columns: repeat(2, 50%);
+    height: 5.5rem;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .closeMenu {
+    display: none;
+  }
+
+  .brand {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    margin: 0 0 0 3rem;
+    justify-content: flex-start;
+  }
+
+  .nav-options {
+    visibility: visible;
+    position: initial;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 0 2rem 0 0;
+    display: flex;
+    background-color: none;
+    width: auto;
+    height: 100%;
+  }
+
+  .options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+  }
+}

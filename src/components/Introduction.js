@@ -17,8 +17,7 @@ function Introduction() {
         </div>
         <div className="information">
           <div className="infoTitle">
-            Software Engineer and Front-end <br></br>
-            Developer, based in México.
+            Software Engineer and Front-end Developer, based in México.
           </div>
           <div className="infoDescription">
             I'm a software engineer based in México, I specialize in building

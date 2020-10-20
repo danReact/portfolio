@@ -89,3 +89,80 @@ textarea#styled {
   width: 100%;
   outline: red;
 }
+
+@media screen and (min-width: 768px) {
+  .contact-container {
+    padding-bottom: 3rem;
+  }
+
+  .contact-info {
+    padding: 2rem 0 0 0;
+    margin: 0 3rem;
+  }
+
+  .contact-title p {
+    margin: 0 0 0.3rem 0;
+    font-size: 0.85rem;
+  }
+
+  .contact-title {
+    font-size: 1.6rem;
+  }
+
+  .contact-description {
+    font-size: 1rem;
+  }
+
+  .contact-description p {
+    font-size: 1rem;
+  }
+
+  .contact-form {
+    margin: 3rem 10rem;
+  }
+
+  .form-section {
+    margin: 4rem 0;
+  }
+
+  .form-section .form-label {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  input {
+    color: var(--white);
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--gray-input);
+    width: 100%;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .send-mail {
+    display: flex;
+    align-items: center;
+  }
+
+  .fa-paperclip {
+    color: var(--gray-input);
+    margin: 0 1.3rem;
+    cursor: pointer;
+  }
+
+  .fa-arrow-right {
+    color: var(--light-blue);
+    cursor: pointer;
+  }
+
+  textarea#styled {
+    color: var(--white);
+    border: 0;
+    border-bottom: 1px solid var(--gray-input);
+    background-color: transparent;
+    width: 100%;
+  }
+}

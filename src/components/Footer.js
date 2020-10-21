@@ -5,7 +5,7 @@ import "./style/footer.css";
 function Footer() {
   return (
     <div className="footer-container">
-      <div className="footer-content">
+      <div className="footer-content bottomReveal">
         <div className="footer-logo">
           <img src="/media/logo.svg" alt="logo" />
         </div>

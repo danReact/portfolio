@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style/navbar.css";
 
 function NavBar() {
@@ -11,12 +11,19 @@ function NavBar() {
     }
   };
 
+  useEffect(() => {
+    let windowWidth = window.innerWidth;
+    if (windowWidth < 768) {
+      document.getElementById("nav-options").classList.remove("rightReveal");
+    }
+  }, []);
+
   return (
     <nav>
-      <div className="burger-menu" onClick={handleClick("open")}>
+      <div className="burger-menu leftReveal" onClick={handleClick("open")}>
         <i id="mobile" className="fas fa-bars fa-2x"></i>
       </div>
-      <div id="nav-options" className="nav-options">
+      <div id="nav-options" className="nav-options rightReveal">
         <div className="options">
           <a href="#introContainer" className="initial-option">
             Introduction <span></span>
@@ -28,7 +35,7 @@ function NavBar() {
           <i className="fas fa-times fa-lg"></i>
         </div>
       </div>
-      <div className="brand">
+      <div className="brand leftReveal">
         <img src="/media/logo.svg" alt="logo" />
       </div>
     </nav>

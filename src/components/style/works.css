@@ -50,10 +50,32 @@
 
 .project {
   display: grid;
+  cursor: pointer;
   grid-template-columns: repeat(8, 12.5%);
   grid-template-rows: repeat(10, 10%);
   height: 8.5rem;
   margin: 5rem 0 6rem 0;
+}
+
+.xdelta {
+  background-image: url("/media/projects/xdelta.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mxcoin {
+  background-image: url("/media/projects/mxcoin.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dashboard {
+  background-image: url("/media/projects/dashboard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .project-presentation {
@@ -62,10 +84,6 @@
   grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 11;
-  background-image: url("/media/projects/xdelta.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .project-presentation span {
@@ -185,10 +203,6 @@
   .project {
     height: 20rem;
     width: 45rem;
-  }
-
-  .project-presentation span {
-    cursor: pointer;
   }
 
   span:hover {

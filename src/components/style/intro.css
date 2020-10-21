@@ -103,8 +103,7 @@
 
 @media screen and (min-width: 1152px) {
   .introContainer {
-    background-size: 80%;
-    background-position: right bottom;
+    background-size: 0%;
   }
 
   .info {

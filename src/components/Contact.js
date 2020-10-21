@@ -27,7 +27,7 @@ function Contact() {
 
   return (
     <div className="contact-container" id="contact-container">
-      <div className="contact-info">
+      <div className="contact-info leftReveal">
         <div className="contact-title">
           <p>- Contact </p>
           Got a project?
@@ -40,7 +40,7 @@ function Contact() {
           <p>daniel@gtdan.com</p>
         </div>
       </div>
-      <div className="contact-form">
+      <div className="contact-form rightReveal">
         <form onSubmit={sendEmail}>
           <div className="form-section">
             <div className="form-label">What´s your name?</div>

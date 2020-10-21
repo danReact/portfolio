@@ -6,7 +6,7 @@ function Works() {
   return (
     <div className="work-container" id="work-container">
       <div className="work-info">
-        <div className="work-text">
+        <div className="work-text leftReveal">
           <div className="work-title">
             <p>- Portfolio </p>
             All Creative Works.
@@ -15,7 +15,7 @@ function Works() {
             I enjoy creating things that live on the internet.
           </div>
         </div>
-        <div className="work-image">
+        <div className="work-image rightReveal">
           <img src="/media/red.svg" alt="red" />
         </div>
       </div>

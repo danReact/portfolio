@@ -5,7 +5,7 @@ import "./style/intro.css";
 function Introduction() {
   return (
     <div className="introContainer" id="introContainer">
-      <div className="info">
+      <div className="info dropDown">
         <div className="infoUser">
           <div className="user">
             Daniel <br></br> García.
